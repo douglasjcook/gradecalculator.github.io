@@ -8,10 +8,8 @@ function addAssignment(){
     newAssignment.classList.add('assignment')
 
     newAssignment.innerHTML = `
-        <label>Assignment Grade:</label>
-        <input type="number" class="grade" min="0" max="100" required>
-        <label>Weight (%):</label>
-        <input type="number" class="weight" min="0" max="100" required>
+        <input type="number" class="grade" min="0" max="100" placeholder="Assignment Grade">
+        <input type="number" class="weight" min="0" max="100" required placeholder="Weight (%)">
         <button type="button" class="remove-btn" onclick="removeAssignment(this)">Remove</button>
     `;
 

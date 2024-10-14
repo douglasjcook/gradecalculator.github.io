@@ -20,7 +20,7 @@ form {
 button {
     margin-top: 10px;  
     padding: 10px 20px;
-    background-color: #0e0035;
+    background-color: #0e003583;
     color: white;
     border: none;
     cursor: pointer;
@@ -37,4 +37,14 @@ p {
     padding: 10px 20px;
     color: white;
     text-align: center;
+}
+input {
+    margin-top: 10px;  
+    padding: 10px 20px;
+    width: 50%;
+    height: 50%;
+}
+.assignment {
+    display: flex;
+    flex-direction: row;
 }
